@@ -1,10 +1,12 @@
-import VueGoogleMaps from '@fawmi/vue-google-maps'
+import VueGoogleMaps from "@fawmi/vue-google-maps";
 
-export default defineNuxtPlugin(nuxtApp => {
+export default defineNuxtPlugin((nuxtApp) => {
+  const config = useRuntimeConfig().public;
+
   nuxtApp.vueApp.use(VueGoogleMaps, {
     load: {
-      // key: 'YOUR_API_KEY_COMES_HERE',
-      language: 'fr', 
-  },
-  })
-})
+      key: config.GOOGLE_MAPS_API_KEY,
+      language: "fr",
+    },
+  });
+});
