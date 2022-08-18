@@ -1,0 +1,47 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "C'est la mer",
+      "image": "/products/1.png",
+      "position": { "lat": 43.178507, "lng": 5.384055 },
+      "price": 150.5,
+      "disposabilityDates": ["2022-10-20"]
+    },
+    {
+      "id": 2,
+      "name": "Le lac",
+      "image": "https://picsum.photos/id/1051/800/600",
+      "position": { "lat": 46.348545, "lng": 6.400573 },
+      "price": 300.5,
+      "disposabilityDates": ["2022-10-20"]
+    },
+    {
+      "id": 3,
+      "name": "Ma maison",
+      "image": "https://picsum.photos/id/104/800/600",
+      "position": { "lat": 44.813719, "lng": -0.384191 },
+      "price": 200.5,
+      "disposabilityDates": ["2022-10-20"],
+      "similarProducts": [4, 5]
+    },
+    {
+      "id": 4,
+      "name": "C'est le nord",
+      "image": "https://picsum.photos/id/393/800/600",
+      "position": { "lat": 50.955175, "lng": 1.845313 },
+      "price": 50.5,
+      "disposabilityDates": ["2022-10-20"],
+      "similarProducts": [3]
+    },
+    {
+      "id": 5,
+      "name": "Bordeaux",
+      "image": "https://picsum.photos/id/1062/800/600",
+      "position": { "lat": 44.84119, "lng": -0.568709 },
+      "price": 200,
+      "disposabilityDates": [],
+      "similarProducts": [3]
+    }
+  ]
+}
